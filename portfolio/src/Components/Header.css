@@ -1,11 +1,21 @@
 .Header {
+  flex: 1;
   padding: 10px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(-90deg, #02203c, #001528);
   color: whitesmoke;
+  animation: slideup 2s ease-in forwards;
 }
+.Header > span {
+  font-size: min(5vw, 3em);
+}
+
 .Header > p {
   margin: 5px 0px;
+  font-size: min(2.4vw, 1.5em);
   color: whitesmoke;
 }
 
@@ -14,4 +24,14 @@
   text-shadow: 1px 1px 5px #f44292;
   font-weight: 900;
   font-style: italic;
+}
+
+@keyframes slideup {
+  from {
+    flex: 1;
+  }
+
+  to {
+    flex: 0.25;
+  }
 }
