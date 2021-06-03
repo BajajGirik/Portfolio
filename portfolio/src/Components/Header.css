@@ -1,0 +1,17 @@
+.Header {
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(-90deg, #02203c, #001528);
+  color: whitesmoke;
+}
+.Header > p {
+  margin: 5px 0px;
+  color: whitesmoke;
+}
+
+.Header > p > span {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px #f44292;
+  font-weight: 900;
+  font-style: italic;
+}

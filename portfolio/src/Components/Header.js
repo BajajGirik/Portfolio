@@ -3,8 +3,9 @@ import './Header.css'
 
 function Header() {
     return (
-        <div>
-            
+        <div className="Header">
+            Welcome to my portfolio
+            <p>This is a portfolio website about <span>Girik Bajaj</span></p>
         </div>
     )
 }
