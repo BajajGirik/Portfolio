@@ -21,8 +21,15 @@ function Main() {
             <Project
                 title="WikiClone"
                 image={Wikiclone}
+                link="https://github.com/BajajGirik/WikiClone"
+                desc="This project is a Wikipedia clone built using Django. It covers many features like creating a new article, editing an already existing article, fetching a random article, a dedicated content page. This project uses Sqlite as its database."
             />
-            <Project title="WikiClone" image="" />
+            <Project
+                title="GoogleHomepageClone"
+                image=""
+                link="https://bajajgirik.github.io/GoogleHomepage/"
+                desc="This is a clone of Google Home Page in which I pass an action to google.com after you search for something. I tried to give it a very original look. It was my first front-end website."
+            />
             <Project title="WikiClone" image="" />
         </div>
     )
