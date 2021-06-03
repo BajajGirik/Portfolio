@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className="Header">
             <span>Welcome to my portfolio</span>
-            <p>This is a portfolio website about <span>Girik Bajaj</span></p>
+            <p>This is a portfolio website is about <span>Girik Bajaj</span></p>
         </div>
     )
 }

@@ -1,9 +1,18 @@
 .Project {
+  color: whitesmoke;
   display: flex;
   height: 302px;
   max-height: 302px;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1.5px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    #f0f0f0,
+    rgb(69, 175, 218),
+    rgb(85, 124, 240)
+  );
+  border-image-slice: 1;
 }
 .Project > a {
   height: 302px;
@@ -19,4 +28,8 @@
   max-height: 302px;
   padding: 1em;
   overflow: scroll;
+}
+
+.Project > div > center {
+  margin-bottom: 1.5em;
 }

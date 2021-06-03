@@ -6,7 +6,7 @@ function Project({ title, desc, image }) {
         <div className="Project">
             <a href="#"><img src={image} alt="Img not loaded" /></a>
             <div>
-                <h2>{title}</h2>
+                <center><h2>{title}</h2></center>
                 <p>{desc}</p>
             </div>
         </div>
