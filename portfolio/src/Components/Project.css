@@ -31,5 +31,12 @@
 }
 
 .Project > div > center {
-  margin-bottom: 1.5em;
+  text-decoration: underline;
+  letter-spacing: 0.225em;
+  text-transform: uppercase;
+}
+
+.Project > div > p {
+  margin: 2em;
+  font-style: italic;
 }
