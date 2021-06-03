@@ -1,11 +1,22 @@
 .Project {
   display: flex;
-  margin: 15px;
-  padding: 5px;
+  height: 302px;
+  max-height: 302px;
   align-items: center;
   justify-content: space-between;
 }
+.Project > a {
+  height: 302px;
+}
 
-.Project > img {
+.Project > a > img {
   object-fit: contain;
+  height: 302px;
+}
+
+.Project > div {
+  box-sizing: border-box;
+  max-height: 302px;
+  padding: 1em;
+  overflow: scroll;
 }

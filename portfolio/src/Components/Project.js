@@ -4,10 +4,10 @@ import "./Project.css"
 function Project({ title, desc, image }) {
     return (
         <div className="Project">
-            <img src={image} alt="Img not loaded" />
+            <a href="#"><img src={image} alt="Img not loaded" /></a>
             <div>
                 <h2>{title}</h2>
-                <p>yadtsgxicaskj</p>
+                <p>{desc}</p>
             </div>
         </div>
     )
