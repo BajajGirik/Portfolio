@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Project.css"
 
-function Project({ title, desc, image }) {
+function Project({ title, desc, image, link }) {
     return (
         <div className="Project">
             <a href="#"><img src={image} alt="Img not loaded" /></a>
