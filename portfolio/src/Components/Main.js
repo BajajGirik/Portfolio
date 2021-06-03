@@ -3,6 +3,7 @@ import './Main.css'
 import Project from './Project'
 import MultiplyIt from '../Pics/MultiplyIt.png'
 import Wikiclone from '../Pics/Wikiclone.png'
+import GoogleHome from '../Pics/GoogleHome.png'
 
 function Main() {
     return (
@@ -26,7 +27,7 @@ function Main() {
             />
             <Project
                 title="GoogleHomepageClone"
-                image=""
+                image={GoogleHome}
                 link="https://bajajgirik.github.io/GoogleHomepage/"
                 desc="This is a clone of Google Home Page in which I pass an action to google.com after you search for something. I tried to give it a very original look. It was my first front-end website."
             />
