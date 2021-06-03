@@ -31,3 +31,12 @@
   color: whitesmoke;
   font-size: min(2.4vw, 1.5em);
 }
+
+.Main__foot > p > a {
+  color: #f44292;
+  transition: color 1s;
+}
+
+.Main__foot > p > a:hover {
+  color: blanchedalmond;
+}
