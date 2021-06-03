@@ -1,7 +1,9 @@
 .Project {
-  border: solid 1px burlywood;
+  display: flex;
   margin: 15px;
   padding: 5px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .Project > img {
