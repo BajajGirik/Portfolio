@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Project.css"
 
-function Project() {
+function Project({ title, image }) {
     return (
-        <div>
-            
+        <div className="Project">
+            <img src={image} />
+            <h2>{ title }</h2>
         </div>
     )
 }

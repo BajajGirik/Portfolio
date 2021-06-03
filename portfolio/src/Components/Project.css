@@ -1,0 +1,9 @@
+.Project {
+  border: solid 1px burlywood;
+  margin: 15px;
+  padding: 5px;
+}
+
+.Project > img {
+  object-fit: contain;
+}
