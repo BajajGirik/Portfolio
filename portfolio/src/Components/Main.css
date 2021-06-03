@@ -3,3 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+.Main > div:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
