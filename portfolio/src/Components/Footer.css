@@ -23,16 +23,17 @@
 .Footer__contact {
   text-align: center;
   margin: 2em 0px;
+  padding: 2em;
 }
 
 .Footer__contact > a {
   color: #888;
   font-size: 1.7em;
-  padding: 0.7em;
-  transition: font-size 1s, color 0.5s;
+  padding: 1em;
+  transition: transform 1s, color 0.5s;
 }
 
 .Footer__contact > a:hover {
-  font-size: 48px;
+  transform: translateY(-0.6em);
   color: #fff;
 }
