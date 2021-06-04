@@ -29,8 +29,10 @@
   color: #888;
   font-size: 1.7em;
   padding: 0.7em;
+  transition: font-size 1s, color 0.5s;
 }
 
 .Footer__contact > a:hover {
+  font-size: 48px;
   color: #fff;
 }
