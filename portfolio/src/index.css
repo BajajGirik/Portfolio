@@ -3,6 +3,10 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .Header > div {
+    font-size: 1em !important;
+  }
+
   .Project {
     flex-direction: column;
   }
@@ -19,5 +23,14 @@
 
   #Main > div:nth-of-type(2n) {
     flex-direction: column !important;
+  }
+
+  .Footer__head {
+    font-size: 1em !important;
+  }
+
+  .Footer__head > h2,
+  .Footer__head > p {
+    letter-spacing: 0.1em !important;
   }
 }
