@@ -28,3 +28,22 @@
   font-size: min(2.4vw, 1.5em);
   color: whitesmoke;
 }
+
+.Header > div {
+  font-size: min(2.3vw, 1.3em);
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+}
+
+.Header > div > a {
+  margin-top: 0.5em;
+  font-size: 2em;
+  color: #777;
+  text-decoration: none;
+  transition: color 0.7s;
+}
+
+.Header > div > a:hover {
+  color: #fff;
+}
