@@ -1,5 +1,8 @@
 .Footer {
+  padding: 2em;
   background-image: url("https://i.pinimg.com/originals/d1/73/a0/d173a05b65b249a3b9909fda944fac70.jpg");
   background-size: contain;
   background-attachment: fixed;
+  text-align: center;
 }
+
