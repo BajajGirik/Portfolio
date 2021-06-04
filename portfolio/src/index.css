@@ -3,6 +3,14 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .Header > span {
+    font-size: 2em !important;
+  }
+
+  .Header__about {
+    margin-bottom: 3em;
+  }
+
   .Header > div {
     font-size: 1em !important;
   }
