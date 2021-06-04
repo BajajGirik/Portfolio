@@ -1,3 +1,23 @@
 * {
   margin: 0;
 }
+
+@media screen and (max-width: 1150px) {
+  .Project {
+    flex-direction: column;
+  }
+
+  .Project > a {
+    width: 100%;
+    height: auto !important;
+  }
+
+  .Project > a > img {
+    width: 100%;
+    height: auto !important;
+  }
+
+  #Main > div:nth-of-type(2n) {
+    flex-direction: column !important;
+  }
+}

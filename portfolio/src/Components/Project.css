@@ -1,18 +1,16 @@
 .Project {
   color: whitesmoke;
   display: flex;
-  height: 302px;
-  max-height: 302px;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1.5px solid transparent;
+  border-bottom: 1.5px solid transparent !important;
   border-image: linear-gradient(
     to right,
     #f0f0f0,
     rgb(69, 175, 218),
     rgb(85, 124, 240)
-  );
-  border-image-slice: 1;
+  ) !important;
+  border-image-slice: 1 !important;
 }
 .Project > a {
   height: 302px;
@@ -31,7 +29,7 @@
 .Project > div {
   box-sizing: border-box;
   max-height: 302px;
-  padding: 1em;
+  padding: 1.5em;
   overflow: scroll;
 }
 
