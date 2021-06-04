@@ -5,6 +5,10 @@
   color: white;
 }
 
+#Skills > center {
+  text-decoration: underline;
+}
+
 #Skills > div {
   display: flex;
   justify-content: space-between;
@@ -20,7 +24,17 @@
 }
 
 #Skills > div > p {
+  opacity: 0.9;
   margin: 1em 0.5em;
   padding: 1.5em;
-  font-size: 1.2em;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 350;
+  letter-spacing: 0.075em;
+}
+
+#Skills > div > p > strong {
+  color: #39cccc;
+  text-decoration: underline;
+  font-style: italic;
 }

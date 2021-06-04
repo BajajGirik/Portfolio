@@ -5,6 +5,7 @@
 }
 
 .Main__head {
+  text-decoration: underline;
   color: whitesmoke;
   text-transform: uppercase;
   text-shadow: 1px 1px 5px #f44292;
