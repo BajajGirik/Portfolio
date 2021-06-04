@@ -11,19 +11,20 @@
   background-attachment: fixed; */
   color: whitesmoke;
 }
+
 .Header > span {
   font-size: min(5vw, 3em);
 }
 
-.Header > p {
-  margin: 5px 0px;
-  font-size: min(2.4vw, 1.5em);
-  color: whitesmoke;
-}
-
-.Header > p > span {
+.Header__about {
   text-transform: uppercase;
   text-shadow: 1px 1px 5px #f44292;
   font-weight: 900;
   font-style: italic;
+}
+
+.Header > p {
+  margin: 10px 0px;
+  font-size: min(2.4vw, 1.5em);
+  color: whitesmoke;
 }

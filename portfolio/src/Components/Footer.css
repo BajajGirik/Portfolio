@@ -27,6 +27,7 @@
 }
 
 .Footer__contact > a {
+  text-decoration: none;
   color: #888;
   font-size: 1.7em;
   padding: 1em;

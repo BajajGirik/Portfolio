@@ -11,11 +11,11 @@ function Footer() {
             </div>
             
             <div className="Footer__contact">
-                <a className="icon solid fa fa-linkedin-square" target="_blank"></a>
-                <a className="icon solid fa fa-github" target="_blank"></a>
-                <a className="icon solid fa fa-envelope" target="_blank"></a>
-                <a className="icon solid fa fa-facebook-f" target="_blank"></a>
-                <a className="icon solid fa fa-instagram" target="_blank"></a>
+                <a className="icon solid fa fa-linkedin-square" href="https://www.linkedin.com/in/girik-bajaj/" target="_blank"></a>
+                <a className="icon solid fa fa-github" href="https://github.com/BajajGirik" target="_blank"></a>
+                <a className="icon solid fa fa-envelope" href="mailto:bajajgirikoff2@gmail.com" target="_blank"></a>
+                <a className="icon solid fa fa-facebook-f" href="https://www.facebook.com/girik.bajaj.9/" target="_blank"></a>
+                <a className="icon solid fa fa-instagram" href="https://www.instagram.com/girik_bajaj/" target="_blank"></a>
             </div>    
         </div>
     )
