@@ -1,0 +1,26 @@
+#Skills {
+  padding: 2em;
+  margin-bottom: 2em;
+  background-color: #2f2fa2;
+  color: white;
+}
+
+#Skills > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+#Skills > div > img {
+  padding: 1em;
+  background-color: #2f2fa2;
+  height: 20em;
+  width: 20em;
+  border-radius: 20em;
+}
+
+#Skills > div > p {
+  margin: 1em 0.5em;
+  padding: 1.5em;
+  font-size: 1.2em;
+}
