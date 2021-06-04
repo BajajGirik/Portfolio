@@ -38,3 +38,14 @@
   text-decoration: underline;
   font-style: italic;
 }
+
+#Skills > div > p > a {
+  margin-top: 1em;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+#Skills > div > p > a:hover {
+  text-decoration: underline;
+}
