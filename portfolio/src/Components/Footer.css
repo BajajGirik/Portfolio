@@ -6,12 +6,12 @@
   text-align: center;
 }
 
-.Footer > a {
+.Footer__contact > a {
   color: #888;
   font-size: 1.7em;
   padding: 0.7em;
 }
 
-.Footer > a:hover {
+.Footer__contact > a:hover {
   color: #fff;
 }
