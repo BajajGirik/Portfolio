@@ -61,3 +61,14 @@
   }
 }
 
+@media screen and (max-width: 890px) {
+  #Skills > div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Skills > div > p > a {
+    margin-top: 2em !important;
+    text-align: center;
+  }
+}
