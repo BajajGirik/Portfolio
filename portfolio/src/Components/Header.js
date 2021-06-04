@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
     return (
         <div className="Header">
-            <span>Hello!</span>
+            <span className="Header__first">Hello!</span>
             <span className="Header__about">I am Girik Bajaj</span>
             <div>
                 <p>Scroll Down to know more about me</p>
