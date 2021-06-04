@@ -16,13 +16,6 @@
   font-size: min(5vw, 3em);
 }
 
-.Header__about {
-  text-transform: uppercase;
-  text-shadow: 1px 1px 5px #f44292;
-  font-weight: 900;
-  font-style: italic;
-}
-
 .Header > p {
   margin: 10px 0px;
   font-size: min(2.4vw, 1.5em);
@@ -46,4 +39,16 @@
 
 .Header > div > a:hover {
   color: #fff;
+}
+
+@keyframes fade {
+  0% {
+    transform: translateX(-2em);
+  }
+  75% {
+    transform: translateX(2em);
+  }
+  100% {
+    transform: translateX(0em);
+  }
 }
