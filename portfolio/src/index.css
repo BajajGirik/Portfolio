@@ -42,3 +42,22 @@
     letter-spacing: 0.1em !important;
   }
 }
+
+@media screen and (max-width: 990px) {
+  #Skills {
+    padding: 1em !important;
+  }
+
+  #Skills > div {
+    padding: 1em 0em !important;
+  }
+
+  #Skills > div > img {
+    padding: 0.5em !important;
+  }
+
+  #Skills > div > p {
+    margin: 1em 0em !important;
+  }
+}
+
