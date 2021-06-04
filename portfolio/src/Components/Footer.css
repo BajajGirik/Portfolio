@@ -6,3 +6,12 @@
   text-align: center;
 }
 
+.Footer > a {
+  color: #888;
+  font-size: 1.7em;
+  padding: 0.7em;
+}
+
+.Footer > a:hover {
+  color: #fff;
+}
