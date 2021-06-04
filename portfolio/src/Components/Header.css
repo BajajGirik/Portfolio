@@ -16,12 +16,6 @@
   font-size: min(5vw, 3em);
 }
 
-.Header > p {
-  margin: 10px 0px;
-  font-size: min(2.4vw, 1.5em);
-  color: whitesmoke;
-}
-
 .Header > div {
   font-size: min(2.3vw, 1.3em);
   text-align: center;
