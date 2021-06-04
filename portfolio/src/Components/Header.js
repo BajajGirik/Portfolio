@@ -8,7 +8,7 @@ function Header() {
             <span className="Header__first">Hello!</span>
             <span className="Header__about">I am Girik Bajaj</span>
             <div>
-                <p>Scroll Down to know more about me</p>
+                <p>Scroll down to checkout my projects</p>
                 <Link className="icon solid fa fa-angle-double-down"
                     to="Main"
                     smooth={true}
