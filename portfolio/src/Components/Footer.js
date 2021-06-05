@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div className="Footer">
+        <div className="Footer" id="ContactMe">
             <div className="Footer__head" data-aos="flip-right" data-aos-duration="3000">
                 <h2>Thanks For Visiting My Website</h2>
                 <p>If you want to get in touch with me,</p>

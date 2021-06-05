@@ -2,11 +2,13 @@ import './App.css';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Main from './Components/Main';
+import Navbar from './Components/Navbar';
 import Skills from './Components/Skills';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Header />
       <Skills />
       <Main />
