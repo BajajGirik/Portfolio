@@ -1,7 +1,6 @@
 #TotalNav {
   box-sizing: border-box;
   font-size: 1.3em;
-  padding: 0em 1em;
   width: 100%;
   position: fixed;
   top: 0%;
@@ -10,6 +9,9 @@
 }
 
 .Navbar {
+  box-sizing: border-box;
+  width: inherit;
+  padding: 0em 1em;
   height: 2.8em;
   display: flex;
   justify-content: space-between;
@@ -19,6 +21,8 @@
 }
 
 .Navbar__container {
+  box-sizing: border-box;
+  padding: 0em 1em;
   opacity: 0;
   height: 0px;
   font-size: 0px;
@@ -27,7 +31,7 @@
   display: flex;
   flex-direction: column;
   transition: opacity 1s;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .Navbar__list {
