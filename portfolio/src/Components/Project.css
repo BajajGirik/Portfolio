@@ -3,11 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: solid 1px rgb(85, 124, 240);
 }
 
 .Project > a {
   height: 302px;
 }
+
 .Project > a > img {
   object-fit: contain;
   height: 302px;
