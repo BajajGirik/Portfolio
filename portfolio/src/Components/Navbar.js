@@ -17,13 +17,13 @@ function Navbar() {
                 duration={1000}>
             About Me   
             </Link> 
-           <Link className="Navbar__list"
+            <Link className="Navbar__list"
                 to="Main"
                 smooth={true}
                 duration={1000}>
             Projects    
             </Link> 
-           <Link className="Navbar__list"
+            <Link className="Navbar__list"
                 to="ContactMe"
                 smooth={true}
                 duration={1000}>

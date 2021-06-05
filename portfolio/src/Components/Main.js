@@ -7,7 +7,7 @@ import GoogleHome from '../Pics/GoogleHome.png'
 
 function Main() {
     return (
-        <div id="Main">\
+        <div id="Main">
             <center className="Main__head"><h1>Some of my projects</h1></center>
             <Project
                 title="MultiplyIt"
