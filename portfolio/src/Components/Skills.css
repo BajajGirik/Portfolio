@@ -40,7 +40,7 @@
 }
 
 #Skills > div > p > a {
-  color: #ff9 !important;
+  color: rgb(255, 255, 0) !important;
   font-size: 1.5em;
   margin-top: 1em;
   display: block;
