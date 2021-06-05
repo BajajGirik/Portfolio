@@ -12,6 +12,7 @@ function Header() {
                 <Link className="icon solid fa fa-angle-double-down"
                     to="Skills"
                     smooth={true}
+                    offset={-56}
                     duration={1000}>
                 </Link>
             </div>

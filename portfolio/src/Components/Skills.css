@@ -40,6 +40,8 @@
 }
 
 #Skills > div > p > a {
+  color: #ff9 !important;
+  font-size: 1.5em;
   margin-top: 1em;
   display: block;
   text-decoration: none;

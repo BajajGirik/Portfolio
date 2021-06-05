@@ -34,6 +34,7 @@ function Navbar() {
                     onClick = {openNav}
                         to="Head"
                         smooth={true}
+                        offset = {-56}
                         duration={1000}>
                     Home    
                     </Link> 
@@ -41,6 +42,7 @@ function Navbar() {
                     onClick = {openNav}
                         to="Skills"
                         smooth={true}
+                        offset = {-56}
                         duration={1000}>
                     About Me   
                 </Link> 
@@ -48,6 +50,7 @@ function Navbar() {
                     onClick = {openNav}
                     to="Main"
                     smooth={true}
+                    offset = {-56}
                     duration={1000}>
                 Projects    
                 </Link> 
@@ -55,6 +58,7 @@ function Navbar() {
                     onClick = {openNav}
                     to="ContactMe"
                     smooth={true}
+                    offset = {-56}
                     duration={1000}>
                     Contact  
                 </Link>
