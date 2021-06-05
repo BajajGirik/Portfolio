@@ -3,10 +3,17 @@ import { Link } from 'react-scroll'
 import './Navbar.css'
     
 function Navbar() {
+    const openNav = (e) => {
+        ;
+    }
+
     return (
-        <div className="Navbar">
-            <div className="icon solid fa fa-bars"></div>
-            <div className="Navbar__container">    
+        <div id = "TotalNav">
+            <div className="Navbar">
+                <div className="icon solid fa fa-bars" onClick={openNav}></div>
+                <div><strong>Girik Bajaj</strong></div>
+            </div>
+            <div className="Navbar__container" data-aos="fade-left" data-aos-duration="3000">    
                 <Link className="Navbar__list"
                         to="Head"
                         smooth={true}
@@ -32,8 +39,7 @@ function Navbar() {
                     Contact  
                 </Link>
             </div>
-            <div><strong>Girik Bajaj</strong></div>
-        </div>
+        </div>    
     )
 }
 

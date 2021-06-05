@@ -10,7 +10,7 @@ function App() {
 
   const scrollmax = (e) => {
     const head = document.querySelector("#Head");
-    const nav = document.querySelector(".Navbar");
+    const nav = document.querySelector("#TotalNav");
     if (window.scrollY >= head.offsetHeight - nav.offsetHeight) {
       nav.style.backgroundColor = "#B15";
     }
