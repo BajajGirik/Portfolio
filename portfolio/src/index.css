@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @media screen and (max-width: 1150px) {
   .Header > span {
     font-size: 2em !important;

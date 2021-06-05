@@ -10,7 +10,7 @@ function Header() {
             <div>
                 <p>Scroll down to know more about me</p>
                 <Link className="icon solid fa fa-angle-double-down"
-                    to="Main"
+                    to="Skills"
                     smooth={true}
                     duration={1000}>
                 </Link>
