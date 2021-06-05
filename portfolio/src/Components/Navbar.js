@@ -8,9 +8,9 @@ function Navbar() {
     const openNav = (e) => {
         const nav = document.querySelector(".Navbar__container");
         if (bars) {
+            nav.style.opacity = "0";
             nav.style.height = "0px";
             nav.style.fontSize = "0px";
-            nav.style.opacity = "0";
             setbars(false);
         }
         else {

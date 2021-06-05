@@ -30,8 +30,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  transition: opacity 1s;
-  align-items: center;
+  transition: opacity 1s ease-in, background-color 0.3s ease-in;
 }
 
 .Navbar__list {
