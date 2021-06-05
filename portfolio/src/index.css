@@ -1,8 +1,5 @@
 * {
   margin: 0;
-}
-
-body {
   overflow-x: hidden;
   max-width: 100vw;
 }
@@ -50,7 +47,7 @@ body {
 
 @media screen and (max-width: 990px) {
   #Skills {
-    padding: 1em !important;
+    padding: 1em 0em !important;
   }
 
   #Skills > div {
@@ -78,5 +75,21 @@ body {
   #Skills > div > p > a {
     margin-top: 2em !important;
     text-align: center;
+  }
+
+  .Project > div {
+    padding: 1.5em 0.7em !important;
+  }
+
+  .Project > div > p {
+    margin: 2em 0.5em !important;
+  }
+
+  .Footer {
+    padding: 1.5em 1em !important;
+  }
+
+  .Footer__head {
+    padding: 2em 0.5em !important;
   }
 }
