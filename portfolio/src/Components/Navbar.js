@@ -5,6 +5,7 @@ import './Navbar.css'
 function Navbar() {
     return (
         <div className="Navbar">
+            <div className="icon solid fa fa-bars"></div>
             <div className="Navbar__container">    
                 <Link className="Navbar__list"
                         to="Head"
@@ -30,7 +31,8 @@ function Navbar() {
                     duration={1000}>
                     Contact  
                 </Link>
-            </div>    
+            </div>
+            <div><strong>Girik Bajaj</strong></div>
         </div>
     )
 }

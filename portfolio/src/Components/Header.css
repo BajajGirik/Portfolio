@@ -79,10 +79,8 @@
 @keyframes disp {
   from {
     opacity: 0;
-    font-size: 0px;
   }
   to {
     opacity: 1;
-    font-size: min(2.3vw, 1.3em);
   }
 }
