@@ -19,12 +19,14 @@
 }
 
 .Navbar__container {
+  opacity: 0;
   height: 0px;
   font-size: 0px;
   font-style: italic;
   color: white;
   display: flex;
   flex-direction: column;
+  transition: opacity 1s;
   /* align-items: center; */
 }
 

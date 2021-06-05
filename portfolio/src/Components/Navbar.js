@@ -10,11 +10,13 @@ function Navbar() {
         if (bars) {
             nav.style.height = "0px";
             nav.style.fontSize = "0px";
+            nav.style.opacity = "0";
             setbars(false);
         }
         else {
             nav.style.height = "auto";
             nav.style.fontSize = "1em";
+            nav.style.opacity = "1";
             setbars(true);
         }
 
