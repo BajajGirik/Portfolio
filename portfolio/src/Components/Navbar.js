@@ -29,24 +29,28 @@ function Navbar() {
             </div>
             <div className="Navbar__container">    
                 <Link className="Navbar__list"
+                    onClick = {openNav}
                         to="Head"
                         smooth={true}
                         duration={1000}>
                     Home    
                     </Link> 
                 <Link className="Navbar__list"
+                    onClick = {openNav}
                         to="Skills"
                         smooth={true}
                         duration={1000}>
                     About Me   
                 </Link> 
                 <Link className="Navbar__list"
+                    onClick = {openNav}
                     to="Main"
                     smooth={true}
                     duration={1000}>
                 Projects    
                 </Link> 
                 <Link className="Navbar__list"
+                    onClick = {openNav}
                     to="ContactMe"
                     smooth={true}
                     duration={1000}>
