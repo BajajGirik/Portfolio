@@ -74,6 +74,10 @@ body {
 }
 
 @media screen and (max-width: 890px) {
+  .Header > div {
+    bottom: 10% !important;
+  }
+
   #Skills > div {
     flex-direction: column;
     align-items: center;
