@@ -1,0 +1,13 @@
+.Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 999;
+  color: white;
+  position: fixed;
+  font-size: 1.3em;
+  top: 0%;
+  right: 0%;
+  padding: 1em;
+  transition: background-color 0.3s ease-in;
+}
