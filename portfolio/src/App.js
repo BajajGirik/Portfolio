@@ -16,12 +16,10 @@ function App() {
     if (window.scrollY >= head.offsetHeight - nav.offsetHeight) {
       nav.style.backgroundColor = "#B15";
       navC.style.backgroundColor = "#B15";
-      navC.style.alignItems = "center";
     }
     else {
       nav.style.backgroundColor = "black";
       navC.style.backgroundColor = "black";
-      navC.style.alignItems = "flex-start";
     }
   }
 
