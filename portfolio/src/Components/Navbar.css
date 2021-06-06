@@ -9,6 +9,7 @@
 }
 
 .Navbar {
+  background-color: black;
   box-sizing: border-box;
   width: inherit;
   padding: 0em 1em;
@@ -21,6 +22,7 @@
 }
 
 .Navbar__container {
+  background-color: black;
   box-sizing: border-box;
   padding: 0em 1em;
   opacity: 0;
