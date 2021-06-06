@@ -19,8 +19,8 @@ function App() {
       navC.style.alignItems = "center";
     }
     else {
-      nav.style.backgroundColor = "transparent";
-      navC.style.backgroundColor = "transparent";
+      nav.style.backgroundColor = "black";
+      navC.style.backgroundColor = "black";
       navC.style.alignItems = "flex-start";
     }
   }

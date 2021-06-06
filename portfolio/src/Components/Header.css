@@ -20,6 +20,7 @@
 
 .Header__first {
   opacity: 0;
+  text-shadow: 1px 1px 5px #f44292;
   animation: translate 1.5s ease-in 0.5s forwards;
 }
 
