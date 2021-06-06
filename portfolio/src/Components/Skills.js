@@ -7,8 +7,8 @@ function Skills() {
             <center><h1>ABOUT ME</h1></center>
             <div data-aos="flip-down" data-aos-duration="3000">
                 <img src="https://png.pngtree.com/png-vector/20190321/ourmid/pngtree-vector-users-icon-png-image_856952.jpg" />
-                <p>My name is Girik Bajaj. 
-                I am a Full Stack Web Developer and am proficient in HTML5, CSS3, Javascript; plus
+                <p>I am a Delhi based
+                Full Stack Web Developer and am proficient in HTML5, CSS3, Javascript; plus
                 modern libraries and frameworks. I have experience working with <strong>Django</strong> and <strong>ReactJs</strong>.
                 I am currently looking for an internship that is
                 intellectually rewarding and has flexible work timings.<br /><br />
