@@ -4,11 +4,19 @@ import Project from './Project'
 import MultiplyIt from '../Pics/MultiplyIt.png'
 import Wikiclone from '../Pics/Wikiclone.png'
 import GoogleHome from '../Pics/GoogleHome.png'
+import SlackClone from '../Pics/SlackClone.png'
 
 function Main() {
     return (
         <div id="Main">
             <center className="Main__head"><h1>Some of my projects</h1></center>
+            <Project
+                title="Slack-Clone"
+                styles="zoom-in"
+                image={SlackClone}
+                link="https://slack-17f4d.web.app/"
+                desc="This project is a clone of slack which is powered by firebase authentication. You can create different rooms and chat in these rooms after signing in through your google account. All the chats, rooms and user's info is pulled from firebase database."
+            />
             <Project
                 title="MultiplyIt"
                 styles="zoom-in"

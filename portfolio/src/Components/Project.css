@@ -37,4 +37,6 @@
 .Project > div > p {
   margin: 2em;
   font-style: italic;
+  text-align: center;
+  line-height: 1.7em;
 }
